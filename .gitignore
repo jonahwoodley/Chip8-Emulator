@@ -1,0 +1,35 @@
+# Ignore build directory and object files 
+build/
+*.a
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignore compiled dynamic libraries (SDL2)
+lib/*.a
+lib/*.so
+lib/*.dll
+lib/*.dylib
+
+# Ignore my editor files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore temporary / swap files
+*.tmp
+*.swp
+*.DS_Store
+*.bak
+*~
+
+# Ignore generated files from SDL
+*.log
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore configs
+*.ini
